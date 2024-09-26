@@ -1,0 +1,33 @@
+body {
+    margin: 0;;
+}
+
+nav {
+    background-color: #545e75;
+    padding: 1rem;
+    width: 100%;
+    overflow: auto;
+}
+
+nav > a {
+    float: left;
+    border-radius: 0.25rem;
+    padding: .05rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #b1b1b1;
+    margin-right: 1rem;
+    transition-duration: 1s;
+    transition-property: color, background-color;
+    transition-timing-function: ease;
+    width: 24.12%;
+}
+
+nav > a:hover {
+    color:yellow;
+    background-color: darkblue;
+}
+
+body {
+    background-color:#a7cced
+}
