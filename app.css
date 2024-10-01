@@ -1,5 +1,6 @@
 body {
     margin: 0;;
+    background-color:#a7cced;
 }
 
 nav {
@@ -16,7 +17,7 @@ nav > a {
     display: inline-block;
     text-decoration: none;
     color: #b1b1b1;
-    margin-right: 1rem;
+    margin-right: 1rem auto;
     transition-duration: 1s;
     transition-property: color, background-color;
     transition-timing-function: ease;
@@ -28,6 +29,3 @@ nav > a:hover {
     background-color: darkblue;
 }
 
-body {
-    background-color:#a7cced
-}
