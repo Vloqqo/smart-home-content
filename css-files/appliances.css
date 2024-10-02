@@ -4,16 +4,19 @@ body {
 }
 
 nav {
+    display: flex;
     background-color: #545e75;
     padding: 1rem;
     width: 100%;
     overflow: auto;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
 }
 
 nav > a {
-    float: left;
     border-radius: 0.25rem;
-    padding: .05rem;
+    padding: .5rem;
     display: inline-block;
     text-decoration: none;
     color: #b1b1b1;
@@ -21,7 +24,7 @@ nav > a {
     transition-duration: 1s;
     transition-property: color, background-color;
     transition-timing-function: ease;
-    width: 24.12%;
+    /* width: 25%; */
 }
 
 nav > a:hover {
@@ -29,3 +32,20 @@ nav > a:hover {
     background-color: darkblue;
 }
 
+.main-content {
+    width: 100%;
+    background-color: #545e75;
+}
+
+.main-content-text {
+    display: flex;
+    justify-content: right;
+    background-color: #b9e38c;
+    padding: 1rem;
+
+}
+
+.big-img {
+    display: flex;
+    justify-content: flex-start;
+}

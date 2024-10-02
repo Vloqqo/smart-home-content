@@ -10,6 +10,8 @@ nav {
     width: 100%;
     overflow: auto;
     justify-content: space-evenly;
+    position: fixed;
+    top: 0;
 }
 
 nav > a {
@@ -34,11 +36,16 @@ nav > a:hover {
     width: 100%;
     background-color: #545e75;
 }
-h3.main-content-heading {
+
+.main-content-text {
     display: flex;
-    width: 612px;
-    height: 684px;
+    justify-content: right;
     background-color: #b9e38c;
-    margin-right:;
-    justify-content: 
+    padding: 1rem;
+
+}
+
+.big-img {
+    display: flex;
+    justify-content: flex-start;
 }
