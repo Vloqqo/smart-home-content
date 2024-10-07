@@ -1,3 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --green: #b9e38c;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
 body {
     margin: 0;;
     background-color:#a7cced;
@@ -34,18 +47,56 @@ nav > a:hover {
 
 .main-content {
     width: 100%;
+    height: 930px;
     background-color: #545e75;
 }
 
 .main-content-text {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     background-color: #b9e38c;
-    padding: 1rem;
-
 }
 
 .big-img {
     display: flex;
     justify-content: flex-start;
+
+}
+
+.buy-main {
+    display: flex;
+    justify-content: flex-end;
+    background-color:#545e75;
+}
+
+
+/* each row of content starts with this class */
+section.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.row.background {
+    background-color: var(--green);
+}
+
+/* each column of content has this class applied */
+section.col {
+    padding: 1em;
+}
+
+/* columns that are jalf of a row wide get this class applied */
+.col.half {
+    width: calc(97% / 3);
+}
+
+div {
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-around;
+    align-items: center;
+}
+.sc1 + .sc2 + .sc3 {
+    width-max: calc(90% / 2);
 }
