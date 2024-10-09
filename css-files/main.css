@@ -83,13 +83,13 @@ nav > a:hover {
 .main-content {
     width: 100%;
     height: 930px;
-    background-color: var (--blue);
+    background-color: var(--blue);
 }
 
 .main-content-text {
     display: flex;
     justify-content: flex-end;
-    background-color: var(green);
+    background-color: var(--green);
 }
 
 .big-img {
@@ -139,7 +139,7 @@ section.sc {
 }
 
 section.sc > section {
-    background-color: var(lgreen);
+    background-color: var(--lgreen);
 }
 
 .vbig-img {
@@ -158,8 +158,7 @@ button {
 }
 
 .button2 {
-    width: 150px;
-    height: 30px;
+    padding: 1em;
 }
 
 footer {
