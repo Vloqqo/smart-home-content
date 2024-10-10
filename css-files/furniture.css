@@ -49,7 +49,7 @@ nav > a:hover {
 }
 
 #hero {
-    background-image: url("../images/interior.png");
+    background-image: url("../images/inter2.png");
     background-size: cover;
     height: 60vh;
     min-height: 500px;
@@ -83,7 +83,7 @@ nav > a:hover {
 .main-content {
     width: 100%;
     height: 930px;
-    background-color: var (--blue);
+    background-color: var(--blue);
 }
 
 .main-content-text {
@@ -133,13 +133,13 @@ div {
 
 section.sc {
     display: flex;
-    flex-flow: row ;
+    flex-flow: row wrap;
     justify-content: space-around;
-    align-items: center;
+    align-content: space-around;
 }
 
 section.sc > section {
-    background-color: var(lgreen);
+    background-color: var(--lgreen);
 }
 
 .vbig-img {
@@ -163,20 +163,44 @@ button {
 }
 
 footer {
+    display: flex;
     background-color: var(--blue);
     padding: .002rem;
     color: #b1b1b1;
+    justify-content: space-evenly;
 }
 
 .card {
-    width: 30%;
+    width: 48%;
     padding: 2em;
-    border-radius: 1em;
+    border-radius: 2em;
+    margin-bottom: 4rem;
 }
 
  .sc {
     margin: 2em 0;
 }
+
+p {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+a {
+    font-size: 24px;
+}
+
+li {
+    font-size: 22px;
+}
+
 /*
 .sc3 {
     width: 30%;

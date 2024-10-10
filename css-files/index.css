@@ -95,7 +95,6 @@ nav > a:hover {
 .big-img {
     display: flex;
     justify-content: flex-start;
-
 }
 
 .buy-main {
@@ -162,9 +161,11 @@ button {
 }
 
 footer {
+    display: flex;
     background-color: var(--blue);
-    padding: .002rem;
+    padding: .000002rem;
     color: #b1b1b1;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -175,6 +176,34 @@ footer {
 
  .sc {
     margin: 2em 0;
+}
+
+p {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+a {
+    font-size: 24px;
+}
+
+li {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
 }
 /*
 .sc3 {
