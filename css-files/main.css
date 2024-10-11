@@ -242,14 +242,11 @@ li {
 
 h5 {
     font-size: 20px;
+    margin-bottom: 0;
 }
 
-h6 {
-    font-size: 16px;
-}
-
-.libut {
-    margin-bottom: 1em;
+h5 > p {
+    margin-bottom: 0;
 }
 
 /*
