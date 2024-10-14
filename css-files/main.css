@@ -203,14 +203,14 @@ footer {
 }
 
 .card2 {
-    width: 48%;
+    width: calc(97% / 2);
     padding: 2em;
     border-radius: 2em;
     margin-bottom: 4rem;
 }
 
 .card {
-    width: 30%;
+    width: calc(97% / 3);
     padding: 2em;
     border-radius: 1em;
     margin-bottom: 4rem;
