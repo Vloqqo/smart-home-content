@@ -165,7 +165,7 @@ section.sc {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    align-items: center;
+    align-self: stretch;
 }
 
 section.sc > section {
